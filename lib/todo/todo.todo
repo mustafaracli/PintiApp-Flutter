@@ -1,0 +1,59 @@
+child: Column(
+          children: [
+            Row(
+              Image.asset(
+                "lib/assets/images/ekle.png",
+                width: 500,
+                height: 500,
+              ),
+              Text(
+                'Welcome',
+                style: TextStyle(
+                  color: Colors.purple,
+                  fontSize: 50,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              Text(
+                'To My Blog',
+                style: TextStyle(
+                  fontSize: 35,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+          ],
+        )
+
+
+        Container(
+      padding: EdgeInsets.all(10),
+      color: Colors.amberAccent[400],
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Image.asset(
+            "lib/assets/images/ekle.png",
+          ),
+          
+          Text(
+            'Harcama eklemek için tıkla',
+            style: TextStyle(
+              color: Colors.purple,
+              fontSize: 20,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+          Text(
+            'için tıkla',
+            style: TextStyle(
+              color: Colors.purple,
+              fontSize: 20,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
