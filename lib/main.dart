@@ -10,7 +10,7 @@ import 'package:hive_flutter/hive_flutter.dart';
 void main() async {
   await Hive.initFlutter();
 
-  await Hive.openBox("expense_database2");
+  await Hive.openBox("expense_database3");
 
   runApp(const MyApp());
 }
