@@ -27,25 +27,27 @@ class _loadScState extends State<loadSc> {
   Widget build(BuildContext context) {
     return Container(
         color: Colors.amberAccent[400],
-        child: Column(
-          children: [
-            SizedBox(
-              height: 300,
-            ),
-            Image.asset(
-              "lib/assets/images/logo.png",
-              width: 150,
-              height: 150,
-            ),
-            SizedBox(
-              height: 150,
-            ),
-            Image.asset(
-              "lib/assets/images/pinti.png",
-              width: 150,
-              height: 150,
-            ),
-          ],
+        child: Center(
+          child: Column(
+            children: [
+              SizedBox(
+                height: 300,
+              ),
+              Image.asset(
+                "lib/assets/images/logo.png",
+                width: 150,
+                height: 150,
+              ),
+              SizedBox(
+                height: 150,
+              ),
+              Image.asset(
+                "lib/assets/images/pinti.png",
+                width: 150,
+                height: 150,
+              ),
+            ],
+          ),
         ));
   }
 }

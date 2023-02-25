@@ -12,7 +12,7 @@ class sp2 extends StatelessWidget {
             Padding(padding: EdgeInsets.only(top: 70)),
             Image.asset(
               "lib/assets/images/graph.png",
-              scale: 1,
+              scale: 1.2,
             ),
             Text(
               'Hangi gün ne kadar harcama yaptığını öğrenmek için üstüne tıkla',
@@ -34,11 +34,11 @@ class sp2 extends StatelessWidget {
               height: 20,
             ),
             Text(
-              'Toplam harcamanı buradan görebilirsin',
+              "Toplam harcamanı buradan görebilirsin",
               textAlign: TextAlign.center,
               style: TextStyle(
                 color: Colors.black,
-                fontSize: 30,
+                fontSize: 20,
                 fontWeight: FontWeight.bold,
               ),
             ),
