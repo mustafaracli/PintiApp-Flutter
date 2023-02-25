@@ -11,7 +11,7 @@ class sp1 extends StatelessWidget {
           padding: const EdgeInsets.all(50.0),
           child: Column(
             children: [
-              Padding(padding: EdgeInsets.only(top: 50)),
+              //Padding(padding: EdgeInsets.only(top: 50)),
               Image.asset(
                 "lib/assets/images/ekle.png",
                 scale: 1,
